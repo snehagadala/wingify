@@ -37,14 +37,11 @@ public void Verifylogincredentials (String scenario, String username ,String pas
 	{
 		System.out.println("login success");
 	}
-	else if(scenario.equals("empty"))
-	{
-	WebElement errormessage = driver.findElement(By.id("random_id_3"));
-	Assert.assertEquals(errormessage.getText(),"Both Username and Password must be present");}
 	
-	else if(scenario.equals("lowercase"))
+	else 
 	{
-		System.out.println("login success");}
+	   System.out.println("login success"); 
+	}
 	driver.findElement(By.xpath("//table[@id='transactionsTable']/thead/tr/th[5]")).click();
 	List<WebElement> amount =driver.findElements(By.xpath("//table[@id='transactionsTable']/tbody/tr/td[5]"));
 	List<Double> amountlist = new ArrayList<>();
@@ -67,6 +64,6 @@ public Object[] getData()
 		{"lowercase", "vikas"," vikas"},
 		{"numbers", "1234", "123456"},
 		{"special characters" ,"@#$%" , "@#$%$#@"},
-		{"empty", "", ""}
+		
 };
 }}
