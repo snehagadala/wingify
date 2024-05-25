@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-25T12:33:10 IST" name="Default suite" finished-at="2024-05-25T12:33:26 IST" duration-ms="16078">
+    <groups>
+    </groups>
+    <test started-at="2024-05-25T12:33:10 IST" name="Default test" finished-at="2024-05-25T12:33:26 IST" duration-ms="16078">
+      <class name="day1.WingifyAssignment">
+        <test-method signature="Verifylogincredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:day1.WingifyAssignment@41d477ed]" started-at="2024-05-25T12:33:10 IST" name="Verifylogincredentials" data-provider="credentials" finished-at="2024-05-25T12:33:15 IST" duration-ms="5141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alphabets]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sneha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sneha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifylogincredentials -->
+        <test-method signature="Verifylogincredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:day1.WingifyAssignment@41d477ed]" started-at="2024-05-25T12:33:15 IST" name="Verifylogincredentials" data-provider="credentials" finished-at="2024-05-25T12:33:18 IST" duration-ms="3115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lowercase]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vikas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ vikas]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifylogincredentials -->
+        <test-method signature="Verifylogincredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:day1.WingifyAssignment@41d477ed]" started-at="2024-05-25T12:33:18 IST" name="Verifylogincredentials" data-provider="credentials" finished-at="2024-05-25T12:33:22 IST" duration-ms="3343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[numbers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifylogincredentials -->
+        <test-method signature="Verifylogincredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:day1.WingifyAssignment@41d477ed]" started-at="2024-05-25T12:33:22 IST" name="Verifylogincredentials" data-provider="credentials" finished-at="2024-05-25T12:33:26 IST" duration-ms="4387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[special characters]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@#$%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[@#$%$#@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifylogincredentials -->
+      </class> <!-- day1.WingifyAssignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
